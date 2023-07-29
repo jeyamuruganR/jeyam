@@ -1,0 +1,37 @@
+  *
+  {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body{
+    overflow: hidden;
+    background:url('jeya.jpg');
+    background-size: cover;
+    background-attachment:fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+
+  }
+  .container{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    transform-style: preserve-3d;
+    perspective: 1000px;
+  }
+  .container .block{
+    position:relative;
+    width: 5vw;
+    height: 5vw;
+    background:white;
+    background-size: cover; 
+    background-attachment:fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* border: 1px solid #111;
+    box-sizing: border-box; */
+    transform-style: preserve-3d;
+     
+  }
+  

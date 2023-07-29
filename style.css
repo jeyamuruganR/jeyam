@@ -1,0 +1,68 @@
+@font-face{
+    font-family: "MyFont";
+    src: url(Caveat-VariableFont_wght.ttf) format("opentype");
+}
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+  background-image:url("pavibac.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: center;
+  align-items:center;
+  
+
+
+
+}
+.firsbage{
+    background:rgba(9, 9, 9, 0.618);
+    padding:0;
+    align-items: center;
+    justify-content: center;
+    display:grid;
+    height: 300px;
+    width: 600px;
+    position: relative;
+    left: 200px;
+    top: 300px;
+
+
+
+}
+
+span{
+    color:beige;
+    font-family: Myfont;
+    font-size: larger;
+    align-items: center;
+    text-transform:capitalize;
+    justify-content: center;
+    position: relative;
+    width: 200px;
+    background-color: hwb(0 92% 8% / 0);
+}
+button{
+    position: relative;
+    border-radius: 50px;
+    height:50px;
+    text-transform: uppercase;
+}
+
+
+
+
+
+
+
+
+.container{
+    background-color: blue;
+    width: 200px;
+}
